@@ -124,5 +124,13 @@ function keyPressed(){
     movement.push([-1, 0]);
   }else if(keyCode === RIGHT_ARROW){
     movement.push([1, 0]);
+  }else if (keyCode === 83){
+    movement.push([0,  1]);
+  }else if (keyCode === 87){
+    movement.push([0, -1]);
+  }else if (keyCode === 65){
+    movement.push([-1, 0]);
+  }else if (keyCode === 68){
+    movement.push([1,  0]);
   }
 }
